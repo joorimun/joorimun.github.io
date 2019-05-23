@@ -14,6 +14,12 @@
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Configure the portfolio collection by adding the following to _config.yml.
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Site Title"
